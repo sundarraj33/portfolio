@@ -12,15 +12,19 @@ function Educations(){
     {/* Heading */}
     <div className="text-center mb-12">
 
-      <div className="flex items-center justify-center gap-3">
-        <img
-          src={Education_img}
-          alt="Education"
-          className="w-10 h-10"
-        />
 
-        <h2 className="text-4xl md:text-5xl font-bold text-blue-600">
+      <div className="flex items-center gap-2 text-center mx-auto bg-violet-200 text-center w-fit p-2 rounded-lg shadow shadow-violet-200 hover:cursor-pointer">
+        <img src={Education_img} className="w-6 h-6 text-violet-600"></img>
+        <p className="text-blue-600 font-semibold tracking-widest text-violet-600 ">            
           Education
+        </p>
+      </div>
+
+
+      <div className="flex items-center justify-center gap-3">        
+
+        <h2 className="text-xl md:text-5xl font-bold">
+          Education & <span className="text-violet-600">Qualifications</span>
         </h2>
       </div>
 
@@ -68,6 +72,10 @@ function Educations(){
 
             <p className="text-lg font-semibold">
               Jun 2018 - Apr 2021
+            </p>
+
+             <p className="text-lg font-semibold bg-green-200 w-fit p-1 rounded-lg shadow-lg mt-2">
+              Completed
             </p>
           </div>
 

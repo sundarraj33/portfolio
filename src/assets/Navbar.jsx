@@ -9,8 +9,8 @@ function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
 
         {/* Logo */}
-        <div className="text-2xl font-bold">
-          Sundar's Portfolio
+        <div className="text-2xl font-bold text-shadow-md text-shadow-blue-100 tracking-wide">
+          <span className="text-blue-600">S</span>undar's <span className="text-blue-600">P</span>ortfolio
         </div>
 
         {/* Desktop Menu */}
