@@ -15,14 +15,14 @@ function Slider() {
    <section className="relative overflow-hidden bg-gradient-to-br from-blue-100 via-white to-blue-200">
 
   {/* Background Blur Effects */}
-  <div className="absolute top-20 left-10 w-72 h-72 bg-pink-400/20 rounded-full blur-3xl"></div>
+  {/* <div className="absolute top-20 left-10 w-72 h-72 bg-pink-400/20 rounded-full blur-3xl"></div> */}
 
 
   {/* <div className="absolute bottom-40 left w-72 h-72  ">
     <img src={blob1}></img>
   </div> */}
 
-  <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+  {/* <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div> */}
 
   {/* Dots Pattern */}
   <div className="absolute top-24 right-10 md:right-32 grid grid-cols-5 gap-3 opacity-30">
@@ -43,8 +43,9 @@ function Slider() {
     ))}
   </div>
   {/* Floating Balls */}
-  <div className="absolute top-40 left-4/5 w-5 h-5 bg-purple-500 rounded-full animate-bounce"></div>
-
+  
+  <div className="invisible md:visible  absolute top-32 left-30 w-16 h-16 bg-blue-300 rounded-full animate-pulse"></div>
+  <div className="invisible md:visible  absolute top-40 left-4/5 w-5 h-5 bg-purple-500 rounded-full animate-bounce"></div>
   <div className="absolute bottom-20 left-2/5 w-5 h-5 bg-blue-600 rounded-full animate-bounce"></div>
   <div className="absolute bottom-32 left-10 w-4 h-4 bg-blue-300 rounded-full animate-pulse"></div>
 
@@ -66,7 +67,7 @@ function Slider() {
           </span>aj
         </h1>
 
-        <h2 className="text-2xl md:text-4xl font-bold  mt-4 bg-gradient-to-r from-blue-600 to-purple-6  00 bg-clip-text text-transparent ">
+        <h2 className="text-2xl md:text-4xl font-bold  mt-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent ">
           Full Stack Developer
         </h2>
 

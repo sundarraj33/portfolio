@@ -13,7 +13,7 @@ function About(){
       <p className="text-blue-600 font-semibold tracking-widest">
         ABOUT ME
       </p>
-<div className="absolute top-20 left-10 w-72 h-72 bg-pink-400/20 rounded-full blur-3xl"></div>
+<div className="invisible md:visible  absolute top-20 left-10 w-72 h-72 bg-pink-400/20 rounded-full blur-2xl"></div>
       <h2 className="text-4xl md:text-5xl font-bold mt-2">
         Turning Ideas Into Reality
       </h2>
@@ -107,11 +107,11 @@ function About(){
     </div>
 
     {/* Stats */}
-    <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-12">
 
    
 
-      <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:-translate-y-2 transition-all flex items-center gap-5 hover:cursor-pointer">
+      <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:-translate-y-2 transition-all flex justify-center md:justify-start lg:justify-start items-center  gap-5 hover:cursor-pointer">
         <div className="bg-blue-100 h-14 w-14 flex items-center justify-center shadow-lg rounded-full gap-2 text-blue-600">
           <i class="fa-regular fa-calendar"></i>
         </div>
@@ -126,7 +126,7 @@ function About(){
 
 
       
-      <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:-translate-y-2 transition-all flex items-center gap-5 hover:cursor-pointer">
+      <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:-translate-y-2 transition-all flex justify-center md:justify-start lg:justify-start  gap-5 hover:cursor-pointer">
         <div className="bg-purple-100 h-14 w-14 flex items-center justify-center shadow-lg rounded-full gap-2 text-purple-600">
           <i className="fa-regular fa-folder-open"></i>
         </div>
@@ -142,7 +142,7 @@ function About(){
 
 
 
-      <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:-translate-y-2 transition-all flex items-center gap-5 hover:cursor-pointer">
+      <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:-translate-y-2 transition-all flex justify-center md:justify-start lg:justify-start  gap-5 hover:cursor-pointer">
         <div className="bg-yellow-100 h-14 w-14 flex items-center justify-center shadow-lg rounded-full gap-2 text-yellow-600">
           <i className="fa-solid fa-code"></i>
         </div>
@@ -158,7 +158,7 @@ function About(){
 
 
       
-  <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:-translate-y-2 transition-all flex items-center gap-5 hover:cursor-pointer">
+  <div className="bg-white rounded-2xl p-6 text-center shadow-md hover:-translate-y-2 transition-all flex justify-center md:justify-start lg:justify-start  gap-5 hover:cursor-pointer">
         <div className="bg-green-100 h-14 w-14 flex items-center justify-center shadow-lg rounded-full gap-2 text-green-600">
           <i className="fa-solid fa-trophy"></i>
         </div>
